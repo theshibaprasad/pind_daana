@@ -25,11 +25,11 @@ const Footer = () => {
                 <div className="footer-col links-col">
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="#hero">Home</a></li>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#packages">Ritual Packages</a></li>
-                        <li><a href="#faq">FAQs</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a className="footer-link" href="#hero">Home</a></li>
+                        <li><a className="footer-link" href="#about">About Us</a></li>
+                        <li><a className="footer-link" href="#packages">Ritual Packages</a></li>
+                        <li><a className="footer-link" href="#faq">FAQs</a></li>
+                        <li><a className="footer-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
 

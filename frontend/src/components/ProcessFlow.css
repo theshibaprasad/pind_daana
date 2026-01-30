@@ -1,5 +1,4 @@
 .process-section {
-  padding: var(--section-padding);
   background-color: var(--color-sand);
   position: relative;
 }

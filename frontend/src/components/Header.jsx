@@ -28,11 +28,11 @@ const Header = () => {
         </div>
 
         <nav className={`nav-menu ${mobileMenuOpen ? 'active' : ''}`}>
-          <a href="#hero" onClick={() => setMobileMenuOpen(false)}>Home</a>
-          <a href="#Services" onClick={() => setMobileMenuOpen(false)}>Services</a>
-          <a href="#how-it-works" onClick={() => setMobileMenuOpen(false)}>How It Works</a>
-          {/* <a href="#packages" onClick={() => setMobileMenuOpen(false)}>Packages</a> */}
-          <a href="#contact" onClick={() => setMobileMenuOpen(false)}>Contact</a>
+          <a href="#hero" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Home</a>
+          <a href="#Services" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Services</a>
+          <a href="#how-it-works" className="nav-link" onClick={() => setMobileMenuOpen(false)}>How It Works</a>
+          {/* <a href="#packages" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Packages</a> */}
+          <a href="#contact" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Contact</a>
           <a href="#sign-in" className="btn btn-primary nav-cta" onClick={() => setMobileMenuOpen(false)}>Sign In</a>
         </nav>
 
